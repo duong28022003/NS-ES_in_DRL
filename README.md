@@ -25,8 +25,7 @@
 <img src="https://i.imgur.com/CeqJCEK.png" alt="Minh hoạ NS-ES" width="600"/>
 </p>
 
-- Các phương pháp khác được phát triển từ NS-ES để cải thiện kết quả, bao gồm:
-  - NSR-ES: Lấy ý tưởng từ NS-ES nhưng bổ sung tín hiệu phần thưởng
+- Một phương pháp khác được phát triển từ NS-ES để cải thiện kết quả là NSR-ES, lấy ý tưởng từ NS-ES nhưng bổ sung tín hiệu phần thưởng
   - Bài viết gốc về NS-ES và NSR-ES xem tại [paper](https://proceedings.neurips.cc/paper_files/paper/2018/hash/b1301141feffabac455e1f90a7de2054-Abstract.html)
 - Dựa trên NS-ES, kết hợp với ý tưởng của giải thuật di truyền (GA), 2 thuật toán khác được đề xuất, bao gồm:
   - NS-ES customized: Tiến hành huấn luyện theo từng quần thể (thay vì theo vòng lặp như NS-ES).
