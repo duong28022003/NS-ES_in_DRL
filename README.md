@@ -6,8 +6,9 @@
 
 - Một hướng tiếp cận khác là thiết kế hoặc học một mô tả về hành vi trong suốt lifetime của agent và thực hiện khám phá bằng một *quần thể các Agent*. Ví dụ: **Novelty Search (NS)** và **Quality Diversity (QD)**
 
-
+<p align="center">
 <img src="https://i.imgur.com/9bEMmuf.png" alt="Minh hoạt NS" width="500"/>
+</p>
 
 
 ---- 
@@ -24,4 +25,6 @@
 
 - Thuật toán NSR-ESc mặc dù kết quả thấp hơn DQN nhưng có tốc độ huấn luyện nhanh nhất và cho kết quả khá tốt, cho thấy tiềm năng để ứng dụng chiến lược *tìm kiếm tính mới* và *các thuật toán tiến hóa* để giải quyết các bài toán học tăng cường.
 
+<p align="center">
 ![Result](NSR-ESc.gif)
+</p>
