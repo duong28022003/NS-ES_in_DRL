@@ -8,7 +8,7 @@
 
 <p align="center">
 <img src="https://i.imgur.com/9bEMmuf.png" alt="Minh hoạt NS" width="500"/>
-</p>
+
 
 ---- 
 
@@ -29,14 +29,4 @@
 
 - Thuật toán NSR-ESc mặc dù kết quả thấp hơn DQN nhưng có tốc độ huấn luyện nhanh nhất và cho kết quả khá tốt, cho thấy tiềm năng để ứng dụng chiến lược *tìm kiếm tính mới* và *các thuật toán tiến hóa* để giải quyết các bài toán học tăng cường.
 
-- Kết quả thực nghiệm trên môi trường *MountainCar* được thể hiện trong bảng bên dưới. Kết quả chi tiết xem tại file `Slide.pdf`. 
-
-
-<p align="center">
-<img src="https://i.imgur.com/su9qOLb.png" alt="Minh hoạt NSR-ESc" width="600"/>
-</p>
-
-
-<div style="text-align: center;">
-  <img src="NSR-ESc.gif" alt="Result">
-</div>
+![Result](NSR-ESc.gif)
