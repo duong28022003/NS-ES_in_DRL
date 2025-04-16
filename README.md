@@ -22,7 +22,7 @@
 </p>
 
 <p align="center">
-<img src="https://i.imgur.com/CeqJCEK.png" alt="Minh hoạt NS-ES" width="600"/>
+<img src="https://i.imgur.com/CeqJCEK.png" alt="Minh hoạ NS-ES" width="600"/>
 </p>
 
 - Các phương pháp khác được phát triển từ NS-ES để cải thiện kết quả, bao gồm:
@@ -31,7 +31,7 @@
   - NSR-ES customized: Lấy ý tưởng từ NS-ESc nhưng sử dụng tín hiệu phần thưởng.
 
 <p align="center">
-<img src="https://i.imgur.com/VDIKgSZ.png" alt="Minh hoạt NSR-ESc" width="600"/>
+<img src="https://i.imgur.com/VDIKgSZ.png" alt="Minh hoạ NSR-ESc" width="600"/>
 </p>
 
 
@@ -44,10 +44,10 @@
 
 
 <p align="center">
-<img src="https://i.imgur.com/su9qOLb.png" alt="Minh hoạt NSR-ESc" width="600"/>
+<img src="https://i.imgur.com/su9qOLb.png" alt="Minh hoạ NSR-ESc" width="600"/>
 </p>
 
 
-<div style="display: flex; justify-content: center;">
+<p align="center">
   <img src="NSR-ESc.gif" alt="Result">
-</div>
+</p>
