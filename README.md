@@ -8,16 +8,27 @@
 
 <p align="center">
 <img src="https://i.imgur.com/9bEMmuf.png" alt="Minh hoạt NS" width="500"/>
+</p>
 
 
 ---- 
 
 # Các phương pháp tiếp cận
 
-- NS-ES: Kết hợp Novelty Search và Evolution Strategy 
-- NSR-ES: Lấy ý tưởng từ NS-ES nhưng bổ sung tín hiệu phần thưởng để cải thiện kết quả
-- NS-ES customized: Kết hợp ý tưởng từ thuật giải di truyền và tiến hành huấn luyện theo từng quần thể (thay vì theo vòng lặp như NS-ES) để cải thiện kết quả của quần thể.
-- NSR-ES customized: Lấy ý tưởng từ NS-ESc nhưng sử dụng tín hiệu phần thưởng để cải thiện kết quả
+- Dựa trên nền tảng của Evolution Strategy và Novelty Search, phương pháp **NS-ES** được đề xuất:
+
+<p align="center">
+<img src="https://i.imgur.com/6ncwzox.png" alt="Minh hoạt ES" width="600"/>
+</p>
+
+<p align="center">
+<img src="https://i.imgur.com/CeqJCEK.png" alt="Minh hoạt NS-ES" width="600"/>
+</p>
+
+- Các phương pháp khác được phát triển từ NS-ES để cải thiện kết quả, bao gồm:
+  - NSR-ES: Lấy ý tưởng từ NS-ES nhưng bổ sung tín hiệu phần thưởng.
+  - NS-ES customized: Kết hợp ý tưởng từ thuật giải di truyền và tiến hành huấn luyện theo từng quần thể (thay vì theo vòng lặp như NS-ES).
+  - NSR-ES customized: Lấy ý tưởng từ NS-ESc nhưng sử dụng tín hiệu phần thưởng.
 
 <p align="center">
 <img src="https://i.imgur.com/VDIKgSZ.png" alt="Minh hoạt NSR-ESc" width="600"/>
@@ -29,4 +40,14 @@
 
 - Thuật toán NSR-ESc mặc dù kết quả thấp hơn DQN nhưng có tốc độ huấn luyện nhanh nhất và cho kết quả khá tốt, cho thấy tiềm năng để ứng dụng chiến lược *tìm kiếm tính mới* và *các thuật toán tiến hóa* để giải quyết các bài toán học tăng cường.
 
-![Result](NSR-ESc.gif)
+- Kết quả thực nghiệm trên môi trường *MountainCar* được thể hiện trong bảng bên dưới. Kết quả chi tiết xem tại file `Slide.pdf`. 
+
+
+<p align="center">
+<img src="https://i.imgur.com/su9qOLb.png" alt="Minh hoạt NSR-ESc" width="600"/>
+</p>
+
+
+<div style="text-align: center;">
+  <img src="NSR-ESc.gif" alt="Result">
+</div>
